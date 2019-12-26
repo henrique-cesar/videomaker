@@ -6,11 +6,11 @@ const bots = {
 };
 
 async function start() {
-    //bots.input();
-    //await bots.text();
+    bots.input();
+    await bots.text();
     await bots.image();
 
-    const content = bots.state.load();
+    //const content = bots.state.load();
     //console.dir(content, { depth: null });
 }
 
